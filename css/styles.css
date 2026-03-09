@@ -1,0 +1,169 @@
+/* ============================================
+   COLOR PALETTE
+   Professional Modern Palette
+   --------------------------------------------
+   Navy Blue: #1B263B
+   Slate Blue: #415A77
+   Light Gray: #E0E1DD
+   White: #FFFFFF
+   Accent Blue: #778DA9
+   ============================================ */
+
+
+/* ============================================
+   BOX MODEL FIX
+   ============================================ */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/* ============================================
+   GLOBAL STYLES
+   ============================================ */
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #1B263B;
+    line-height: 1.6;
+    background-color: #E0E1DD;
+
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+
+/* ============================================
+   HEADINGS
+   ============================================ */
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* ============================================
+   HEADER
+   ============================================ */
+
+header {
+    background-color: #1B263B;
+    color: #FFFFFF;
+
+}
+
+header .column-wide {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 20px 30px;
+    padding-left: 60px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+
+/* ============================================
+   PROFILE IMAGE
+   ============================================ */
+
+.profile-img {
+    width: 300px;
+    border-radius: 12%;
+}
+
+
+/* ============================================
+  COLUMNS
+   ============================================ */
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+
+/* ============================================
+   WORK EXPERIENCE SECTION
+   ============================================ */
+
+.work-experience {
+    background-color: #FFFFFF;
+
+    border-radius: 12px;
+    margin: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+/* ============================================
+   EDUCATION SECTION
+   ============================================ */
+
+.education {
+    background-color: #778DA9;
+    color: #FFFFFF;
+
+    border-radius: 12px;
+    margin: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+/* ============================================
+   FOOTER
+   ============================================ */
+
+footer {
+    background-color: #415A77;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* ============================================
+   GENERAL CONTENT SPACING
+   ============================================ */
+
+p {
+    font-size: 16px;
+}
